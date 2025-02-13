@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -14,14 +15,51 @@ body {
     --black-color: #000000;
 }
 
-.navbar_left {
-    width: 300px;
-    height: 100%;
+.sidebar_left {
+    width: 270px;
+    height: 100vh;
+    text-align: center;
     background: var(--main-color);
-    color: var(--white-color);
+
 }
 
-.navbar_left .logo_main {
+.sidebar_left .logo_main {
     width: 150px;
     height: 150px;
+}
+
+.sidebar_left--menu li {
+    text-align: left;
+    list-style: none;
+    line-height: 20px;
+    padding: 15px;
+    margin: 20px 20px;
+}
+
+.sidebar_left--menu li:hover {
+    background-color: #000;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.sidebar_left--link {
+    font-size: 18px;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.sidebar_left--icon {
+    margin-right: 10px;
+    line-height: 20px;
+}
+
+.sidebar_left--menu li:nth-child(6) {
+    position: absolute;
+    bottom: 0;
+}
+
+.sidebar_left--menu li:nth-child(5) {
+    position: absolute;
+    bottom: 70px;
+    padding-right: 35px;
 }
