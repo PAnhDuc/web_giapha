@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-brown: #512709;
+    /* Nâu gỗ */
+    --accent-gold: #C9A66B;
+    /* Vàng đồng */
+    --background-cream: #F5E8C7;
+    /* Kem nhạt */
+    --highlight-green: #3D2C1D;
+    /* Xanh rêu */
+    --highlight-red: #8B0000;
+    /* Đỏ đô */
+    --text-dark: #2C2C2C;
+    /* Đen than */
+
+}
+
+body {
+    font-family: "Roboto", serif;
+}
+
+.sidebar_left {
+    width: 300px;
+    height: 100vh;
+    text-align: center;
+    /* background: var(--accent-gold); */
+    background-image: url(../img/background-phado.png);
+}
+
+.sidebar_left .logo_main {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.sidebar_left--menu li {
+    text-align: left;
+    list-style: none;
+    line-height: 20px;
+    padding: 20px 15px;
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+
+.sidebar_left--menu li:hover {
+    background-color: var(--highlight-green);
+    color: var(--background-cream);
+    cursor: pointer;
+    border-radius: 30px 0px 0px 30px;
+}
+
+/* .sidebar_left li::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -50px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 35px 35px 0 10px var(--white-color);
+}
+
+.sidebar_left li::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 35px -35px 0 10px var(--white-color);
+} */
+
+.sidebar_left--link {
+    color: var(--primary-brown);
+    text-decoration: none;
+}
+
+.sidebar_left--icon {
+    margin-right: 15px;
+    line-height: 20px;
+}
+
+.sidebar_left--menu li:nth-child(6) {
+    position: absolute;
+    padding-right: 63px;
+    bottom: 0;
+}
