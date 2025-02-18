@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB GIA PHẢ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/treeflex/dist/css/treeflex.css">
+</head>
+
+<body>
+    <div class="sidebar_left" id="sidebar">
+        <img src="./assets/img/logo.png" alt="Logo" class="logo_main">
+        <ul class="sidebar_left--menu">
+            <li class="sidebar_left--item"><a class="sidebar_left--link" href="index.html">
+                    <i class="fa-solid fa-house sidebar_left--icon"></i>
+                    <span>Trang chủ</span>
+                </a>
+            </li>
+            <li class="sidebar_left--item"><a class="sidebar_left--link" href="user.html">
+                    <i class="fa-solid fa-user sidebar_left--icon"></i>
+                    <span>Quản lí thành viên</span>
+                </a>
+            </li>
+            <li class="sidebar_left--item">
+                <a class="sidebar_left--link" href="dsgiapha.html">
+                    <i class="fa-solid fa-table-list sidebar_left--icon"></i>
+                    <span>Danh sách gia phả</span>
+                </a>
+            </li>
+            <li class="sidebar_left--item">
+                <a class="sidebar_left--link" href="phado.html">
+                    <i class="fa-solid fa-network-wired sidebar_left--icon"></i>
+                    <span>Quản lí phả đồ</span>
+                </a>
+            </li>
+            <li class="sidebar_left--item">
+                <a class="sidebar_left--link" href="dashboard-admin.html">
+                    <i class="fa-solid fa-gear sidebar_left--icon"></i>
+                    <span>Quản lí tài khoản</span>
+                </a>
+            </li>
+            <li class="sidebar_left--item">
+                <a class="sidebar_left--link" href="login.html">
+                    <i class="fa-solid fa-right-from-bracket sidebar_left--icon"></i>
+                    <span>Đăng xuất tài khoản</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main" id="main">
+        <div class="toggle" onclick="toggleSidebar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="main_content">
+
+            <div class="tf-tree" style="font-size: 8px;">
+                <ul>
+                    <li>
+                        <div class="tf-nc">
+                            <img src="https://chupanhthe.vn/img/Chup-anh-the-theo-tieu-chuan-chan-dung.jpg" alt=""
+                                class="tf-nc-img">
+                            <p class="tf-nc-life">Đời: 1</p>
+                            <a href="" class="tf-nc-name">Nguyễn Văn A</a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="tf-nc">
+                                    <img src="https://chupanhthe.vn/img/Chup-anh-the-theo-tieu-chuan-chan-dung.jpg"
+                                        alt="" class="tf-nc-img">
+                                    <p class="tf-nc-life">Đời: 2</p>
+                                    <a href="" class="tf-nc-name">Nguyễn Văn B</a>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <div class="tf-nc">
+                                            <img src="https://chupanhthe.vn/img/Chup-anh-the-theo-tieu-chuan-chan-dung.jpg"
+                                                alt="" class="tf-nc-img">
+                                            <p class="tf-nc-life">Đời: 3</p>
+                                            <a href="" class="tf-nc-name">Nguyễn Văn C</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tf-nc">
+                                            <img src="https://chupanhthe.vn/img/Chup-anh-the-theo-tieu-chuan-chan-dung.jpg"
+                                                alt="" class="tf-nc-img">
+                                            <p class="tf-nc-life">Đời: 3</p>
+                                            <a href="" class="tf-nc-name">Nguyễn Văn D</a>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <div class="tf-nc">
+                                                    <img src="https://chupanhthe.vn/img/Chup-anh-the-theo-tieu-chuan-chan-dung.jpg"
+                                                        alt="" class="tf-nc-img">
+                                                    <p class="tf-nc-life">Đời: 4</p>
+                                                    <a href="" class="tf-nc-name">Nguyễn Văn E</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="tf-nc">
+                                                    <img src="https://chupanhthe.vn/img/Chup-anh-the-theo-tieu-chuan-chan-dung.jpg"
+                                                        alt="" class="tf-nc-img">
+                                                    <p class="tf-nc-life">Đời: 4</p>
+                                                    <a href="" class="tf-nc-name">Nguyễn Văn F</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div class="tf-nc">
+                                            <img src="https://chupanhthe.vn/img/Chup-anh-the-theo-tieu-chuan-chan-dung.jpg"
+                                                alt="" class="tf-nc-img">
+                                            <p class="tf-nc-life">Đời: 3</p>
+                                            <a href="" class="tf-nc-name">Nguyễn Văn G</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="tf-nc">
+                                    <img src="https://chupanhthe.vn/img/Chup-anh-the-theo-tieu-chuan-chan-dung.jpg"
+                                        alt="" class="tf-nc-img">
+                                    <p class="tf-nc-life">Đời: 2</p>
+                                    <a href="" class="tf-nc-name">Nguyễn Văn H</a>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <div class="tf-nc">
+                                            <img src="https://chupanhthe.vn/img/Chup-anh-the-theo-tieu-chuan-chan-dung.jpg"
+                                                alt="" class="tf-nc-img">
+                                            <p class="tf-nc-life">Đời: 3</p>
+                                            <a href="" class="tf-nc-name">Nguyễn Văn I</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tf-nc">
+                                            <img src="https://chupanhthe.vn/img/Chup-anh-the-theo-tieu-chuan-chan-dung.jpg"
+                                                alt="" class="tf-nc-img">
+                                            <p class="tf-nc-life">Đời: 3</p>
+                                            <a href="" class="tf-nc-name">Nguyễn Văn K</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/js/main.js"></script>
+
+</html>
